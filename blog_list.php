@@ -13,7 +13,15 @@
     <!-- Begin page -->
     <div class="layout-wrapper landing">
         <?php include("inc/inc_navbar.php"); ?>
-        <div>....</div>
+        <div>
+            <div>banner</div>>
+            <div class="row">
+                <div class="col-4">
+                    sidebar
+                </div>
+                <div class="col-8">search - news</div>
+            </div>
+        </div>
         <?php include("inc/inc_footer.php"); ?>
     </div>
     <!-- end layout wrapper -->

@@ -13,7 +13,16 @@
     <!-- Begin page -->
     <div class="layout-wrapper landing">
         <?php include("inc/inc_navbar.php"); ?>
-        <div>....</div>
+        <div>
+            <div>banner</div>>
+            <div class="row">
+                // apps-job-details.php (左右互换)
+                <div class="col-4">
+                    sidebar
+                </div>
+                <div class="col-8">content</div>
+            </div>
+        </div>
         <?php include("inc/inc_footer.php"); ?>
     </div>
     <!-- end layout wrapper -->
