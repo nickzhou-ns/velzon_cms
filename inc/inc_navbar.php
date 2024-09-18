@@ -11,22 +11,11 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#hero">Home</a>
+                    <a class="nav-link active" href="index.php">Home</a>
                 </li>
+               
                 <li class="nav-item">
-                    <a class="nav-link" href="#process">Process</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#categories">Categories</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#findJob">Find Jobs</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#candidates">Candidates</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#blog">Blog</a>
+                    <a class="nav-link" href="blog_list.php">Blog</a>
                 </li>
             </ul>
 

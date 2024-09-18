@@ -8,3 +8,9 @@
 <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
 <!-- custom Css-->
 <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+
+
+<!-- Import Vue 3 -->
+<script src="assets/libs/js/vue3.js"></script>
+
+<script src="assets/libs/js/axios.js"></script>

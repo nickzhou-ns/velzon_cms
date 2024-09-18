@@ -12,14 +12,16 @@
 
     <!-- Begin page -->
     <div class="layout-wrapper landing">
-        <?php include("inc/inc_navbar.php"); ?>
-        <div>
-            <div>banner</div>>
+        <?php 
+            include("inc/inc_navbar.php");
+            include("inc/inc_page_title.php");
+        ?>
+        <div class="container">
             <div class="row">
-                <div class="col-4">
-                    sidebar
-                </div>
-                <div class="col-8">search - news</div>
+                <?php 
+                    include("inc/inc_sidebar.php");
+                    include("inc/inc_blog_list.php");
+                ?>
             </div>
         </div>
         <?php include("inc/inc_footer.php"); ?>
@@ -29,11 +31,7 @@
 
     <?php include 'layouts/vendor-scripts.php'; ?>
 
-    <!--Swiper slider js-->
-    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
 
-    <!--job landing init -->
-    <script src="assets/js/pages/job-lading.init.js"></script>
 </body>
 
 </html>

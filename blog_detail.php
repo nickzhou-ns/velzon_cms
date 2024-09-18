@@ -12,17 +12,20 @@
 
     <!-- Begin page -->
     <div class="layout-wrapper landing">
-        <?php include("inc/inc_navbar.php"); ?>
-        <div>
-            <div>banner</div>>
+        <?php
+        include("inc/inc_navbar.php");
+        include("inc/inc_page_title.php");
+        ?>
+
+        <div class="container">
             <div class="row">
-                // apps-job-details.php (左右互换)
-                <div class="col-4">
-                    sidebar
-                </div>
-                <div class="col-8">content</div>
+                <?php   
+                include("inc/inc_sidebar.php");
+                include("inc/inc_blog_details.php");
+                ?>
             </div>
         </div>
+
         <?php include("inc/inc_footer.php"); ?>
     </div>
     <!-- end layout wrapper -->
@@ -30,11 +33,6 @@
 
     <?php include 'layouts/vendor-scripts.php'; ?>
 
-    <!--Swiper slider js-->
-    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
-
-    <!--job landing init -->
-    <script src="assets/js/pages/job-lading.init.js"></script>
 </body>
 
 </html>
