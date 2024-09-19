@@ -1,7 +1,9 @@
 <div page="inc_blog_details" class="col-8 mt-5">
     <div class="card">
         <div class="card-body">
-            <h5 class="mb-3">Job Description</h5>
+            <h1>Title</h1>
+            <hr/>
+            <h2>Job Description</h2>
 
             <p class="text-muted mb-2">A Product Designer of a company is responsible for the user experience of a product, which usually includes taking direction on the business goals and objectives from product management. Product Designers are typically associated with the visual or tactile aspects of a product but sometimes they can also play a role in the information architecture and system design of a product.</p>
             <p class="text-muted mb-4">Product designer is an exceptional career choice. The demand for product designers is increasing with each passing day but there is a huge shortage for a skilful product designer in the market. With hard work and an apt skill set, a product designer can make a handsome amount of money.</p>

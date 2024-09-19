@@ -40,7 +40,7 @@
                 foreach($blog_list as $item){
             ?>
               <div class="col-lg-4 col-md-6">
-                  <div class="card">
+                  <div class="card border_top">
                       <div class="card-body">
                           <img src="<?= $item['img']?>" alt="" class="img-fluid rounded" />
                       </div>
