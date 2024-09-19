@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-landing job-navbar" id="navbar" page="inc_navbar">
-    <div class="container-fluid custom-container">
+    <div class="container">
         <a class="navbar-brand" href="index.php">
             <img src="assets/images/logo-dark.png" class="card-logo card-logo-dark" alt="logo dark" height="17">
             <img src="assets/images/logo-light.png" class="card-logo card-logo-light" alt="logo light" height="17">
@@ -13,7 +13,7 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="index.php">Home</a>
                 </li>
-               
+
                 <li class="nav-item">
                     <a class="nav-link" href="blog_list.php">Blog</a>
                 </li>

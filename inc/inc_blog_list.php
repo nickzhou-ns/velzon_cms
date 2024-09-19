@@ -40,7 +40,7 @@
                                     <ul class="list-inline mb-2">
                                         <li class="list-inline-item"><span class="badge bg-success-subtle text-success fs-11"><?= $item['badge'] ?></span></li>
                                     </ul>
-                                    <h5><a href="<?=$item['href']?>"><?= $item['title'] ?></a></h5>
+                                    <h5><a href="<?=$item_href?>"><?= $item['title'] ?></a></h5>
                                     <ul class="list-inline mb-0">
                                         <li class="list-inline-item"><i class="ri-user-3-fill text-success align-middle me-1"></i> <?= $item['editor'] ?></li>
                                         <li class="list-inline-item"><i class="ri-calendar-2-fill text-success align-middle me-1"></i> <?= $item['date'] ?></li>

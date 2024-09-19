@@ -12,60 +12,64 @@
           <!-- end row -->
 
           <div class="row">
-            <?php 
-                $blog_list=[
+              <?php
+                $blog_list = [
                     [
-                        'img'=>'assets/images/small/img-8.jpg',
-                        'title'=>'Design your apps in your own way ?',
-                        'date'=>'30 Oct, 2021',
-                        'comment'=>'364 Comment',
-                        'text'=>'One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others.'
+                        'img' => 'assets/images/small/img-8.jpg',
+                        'title' => 'Design your apps in your own way ?',
+                        'date' => '30 Oct, 2021',
+                        'comment' => '364 Comment',
+                        'text' => 'One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others.',
+                        'href' => "blog_detail.php"
                     ],
                     [
-                        'img'=>'assets/images/small/img-6.jpg',
-                        'title'=>'Design your apps in your own way ?',
-                        'date'=>'30 Oct, 2021',
-                        'comment'=>'364 Comment',
-                        'text'=>'One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others.'
+                        'img' => 'assets/images/small/img-6.jpg',
+                        'title' => 'Design your apps in your own way ?',
+                        'date' => '30 Oct, 2021',
+                        'comment' => '364 Comment',
+                        'text' => 'One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others.',
+                        'href' => "blog_detail.php"
                     ],
                     [
-                        'img'=>'assets/images/small/img-9.jpg',
-                        'title'=>'Design your apps in your own way ?',
-                        'date'=>'30 Oct, 2021',
-                        'comment'=>'364 Comment',
-                        'text'=>'One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others.'
+                        'img' => 'assets/images/small/img-9.jpg',
+                        'title' => 'Design your apps in your own way ?',
+                        'date' => '30 Oct, 2021',
+                        'comment' => '364 Comment',
+                        'text' => 'One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others.',
+                        'href' => "blog_detail.php"
                     ],
-                  
-                ];
-                foreach($blog_list as $item){
-            ?>
-              <div class="col-lg-4 col-md-6">
-                  <div class="card border_top">
-                      <div class="card-body">
-                          <img src="<?= $item['img']?>" alt="" class="img-fluid rounded" />
-                      </div>
-                      <div class="card-body">
-                          <ul class="list-inline fs-14 text-muted">
-                              <li class="list-inline-item">
-                                  <i class="ri-calendar-line align-bottom me-1"></i> <?= $item['date']?>
-                              </li>
-                              <li class="list-inline-item">
-                                  <i class="ri-message-2-line align-bottom me-1"></i> <?= $item['comment']?>
-                              </li>
-                          </ul>
-                          <a href="javascript:void(0);">
-                              <h5><?= $item['title']?></h5>
-                          </a>
-                          <p class="text-muted fs-14"><?= $item['text']?></p>
 
-                          <div>
-                              <a href="#!" class="link-success">Learn More <i class="ri-arrow-right-line align-bottom ms-1"></i></a>
+                ];
+                foreach ($blog_list as $item) {
+                    $item_href = $item['href'];
+                ?>
+                  <div class="col-lg-4 col-md-6">
+                      <div class="card border_top">
+                          <div class="card-body">
+                              <img src="<?= $item['img'] ?>" alt="" class="img-fluid rounded" />
+                          </div>
+                          <div class="card-body">
+                              <ul class="list-inline fs-14 text-muted">
+                                  <li class="list-inline-item">
+                                      <i class="ri-calendar-line align-bottom me-1"></i> <?= $item['date'] ?>
+                                  </li>
+                                  <li class="list-inline-item">
+                                      <i class="ri-message-2-line align-bottom me-1"></i> <?= $item['comment'] ?>
+                                  </li>
+                              </ul>
+                              <a href="<?= $item_href ?>">
+                                  <h5><?= $item['title'] ?></h5>
+                              </a>
+                              <p class="text-muted fs-14"><?= $item['text'] ?></p>
+
+                              <div>
+                                  <a href="<?= $item_href ?>" class="link-success">Learn More <i class="ri-arrow-right-line align-bottom ms-1"></i></a>
+                              </div>
                           </div>
                       </div>
                   </div>
-              </div>
-            <?php }?>
-              
+              <?php } ?>
+
 
           </div>
       </div>
